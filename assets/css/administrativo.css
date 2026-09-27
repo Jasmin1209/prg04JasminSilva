@@ -1,0 +1,59 @@
+body {
+    background-color: #111325;
+    color: #c7cff7;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.8rem;
+}
+
+.admin-card{
+    background-color: #1c1f3a;
+    border: 2px solid #494e7a;
+    border-radius: 12px;
+    color: #c7cff7;
+}
+
+.table-responsive{
+    border-radius: 12px;
+    overflow-x: auto;
+}
+
+.table {
+    color: #c7cff7;
+    background-color: #1f234e;
+    min-width: 600px;
+}
+
+.table th, 
+.table td {
+    color: #111325;
+}
+
+.icon{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.btn-outiline-light {
+    background-color: #c7cff7;
+}
+
+.btn-outiline-light:hover{
+    background-color: #494e7a;
+} 
+
+@media(max-width: 576px){
+    h1{
+        font-size: 1.4rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .btn-outline-light {
+        width: auto !important;
+    }
+}

@@ -1,0 +1,42 @@
+html, body{
+height:100%;
+}
+
+body {
+    background-color: #111325;
+}
+
+/* container vira opcional */
+.login-card{
+    width: 100%;
+    max-width: 450px;
+
+    background-color: #1c1f3a;
+    border: 3px solid #494e7a;
+    border-radius: 10px;
+    color: #c7cff7;
+    box-shadow: 0 15px rgba(0, 0, 0, 0.5);
+}
+
+/* título */
+h1 {
+    color: #c7cff7;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form-control{
+    background-color: #2a2e5e;
+    border: none;
+    color: white;
+}
+
+.form-control:focus{
+    background-color: #2a2e5e;
+    color: white;
+    box-shadow: none;
+    border: 2px solid #757EF0;
+}
+
+.btn-primary:hover{
+    background-color: #5a63d8;
+}

@@ -1,5 +1,6 @@
 header{
-    background-color: #757EF0;
+    position: relative;
+    background-color: #04095a;
     padding: 30px;
     width: 100%;
 }
@@ -15,24 +16,20 @@ body{
 
 h1{
     text-align: center;
-    font-size: 2.0em;
+    font-size: 3em;
     padding: 10px autp;
     color: #c7cff7;
-    border: 1px solid wheat;
 }
 
 #menu{
     padding: 20px;
     text-align: center;
-    background-color: #494e7a;
 }
 
 #menu a{
-    display: block; /* Faz o link ficat em blocos*/
+    display: block; /* Faz o link ficar em blocos*/
     color: #c7cff7;
     text-decoration: none;
-    border: 1px solid wheat;
-    background-color: #111325;
     padding: 10px;
     border-radius: 15px;
 }
@@ -62,4 +59,15 @@ li {
 img{
     max-width: 100%; /* Nunca ultrapassa a tela */
     height: auto; /*mantém proporções*/
+}
+
+#login{
+    background-color: #80819c;
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px 15px;
+    text-decoration: none;
 }
